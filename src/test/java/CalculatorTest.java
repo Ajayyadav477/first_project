@@ -19,5 +19,6 @@ public class CalculatorTest {
     public void testMul() {
         Calculator calc = new Calculator();
         assertEquals(calc.mul(2, 3), 6);
+        System.out.println("Hello world");
     }
 }
